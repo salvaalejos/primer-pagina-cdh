@@ -238,9 +238,16 @@ h6 {
 .header .logo img {
   max-height: 75px;
   margin-right: 8px;
-  height: auto;
+  width: auto;
 }
 
+@media (max-width: 768px) {
+  .header .logo img {
+    max-height: 50px;
+    margin-right: 4px;
+    width: auto;
+  }
+}
 
 
 /* .header .logo h1 {
@@ -283,12 +290,7 @@ h6 {
   }
 }
 
-@media (max-width: 768px) {
-  .header .logo img {
-    max-height: 50px;
-    margin-right: 4px;
-  }
-}
+
 
 .scrolled .header {
   padding: 10px 0;
