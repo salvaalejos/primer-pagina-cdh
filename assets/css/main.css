@@ -238,14 +238,12 @@ h6 {
 .header .logo img {
   max-height: 75px;
   margin-right: 8px;
-  width: auto;
 }
 
 @media (max-width: 768px) {
   .header .logo img {
     max-height: 50px;
     margin-right: 4px;
-    width: auto;
   }
 }
 
